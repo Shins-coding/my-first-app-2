@@ -1,0 +1,43 @@
+.intro {
+  text-align: center;
+  padding-bottom: 28px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.intro h1 {
+  margin: 0 0 10px 0;
+  color: #0f172a;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.intro p {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.92rem;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.intro a {
+  color: #dc2626;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+section p {
+  color: #334155;
+  font-size: 0.98rem;
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 1.7rem;
+  }
+}
